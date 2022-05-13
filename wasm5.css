@@ -80,7 +80,14 @@ section {
   padding: 40px 30px 10px 30px;
 }
 
+.timeline-item:nth-child(odd) .timeline-content .date {
+  background-position: right center;
+  padding: 10px 90px 10px 20px;
+}
+
 .timeline-item:nth-child(even) .timeline-content .date {
+  background-position: left center;
+  padding: 10px 20px 10px 90px;
   right: auto;
   left: 0;
 }
@@ -169,13 +176,12 @@ section {
 }
 
 .date {
+  background-image: url("img/browser.svg");
   background-color: #654ff0;
-  background-size: 30px;
-  background-position: 10px 7px;
+  background-size: 80px;
   background-repeat: no-repeat;
   display: inline-block;
   color: white;
-  padding: 10px 10px 10px 50px;
   position: absolute;
   top: 0px;
   right: 0px;
