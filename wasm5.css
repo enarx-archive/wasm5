@@ -134,7 +134,7 @@ section {
 .timeline-img {
   width: 30px;
   height: 30px;
-  background-image: url(img/webassembly.svg);
+  background-image: url(img/wasm_tiny.svg);
   background-size: cover;
   position: absolute;
   left: 50%;
